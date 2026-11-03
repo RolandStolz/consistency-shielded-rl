@@ -1,0 +1,76 @@
+{
+  "hp_sweep_id": "sw5hn1s0",
+  "metric": "test/returns_stat/mean",
+  "configs": [
+    {
+      "run_id": "0c9tu0lq",
+      "run_name": "PPO-alpha-projection-HPolytope",
+      "metric_value": 21.067564,
+      "hyperparameters": {
+        "batch_size": 256,
+        "ent_coef": 0.028762247986668724,
+        "eps_clip": 0.10367855346416369,
+        "lr": 0.0007060287070631662,
+        "width": 512,
+        "update_step_num_repetitions": 3,
+        "vf_coef": 0.5131695765613574
+      }
+    },
+    {
+      "run_id": "zxb77pg8",
+      "run_name": "PPO-alpha-projection-HPolytope",
+      "metric_value": 17.057268,
+      "hyperparameters": {
+        "batch_size": 256,
+        "ent_coef": 0.021199998033858008,
+        "eps_clip": 0.14525717415439585,
+        "lr": 0.0005717487947085655,
+        "width": 512,
+        "update_step_num_repetitions": 3,
+        "vf_coef": 0.5198655569249617
+      }
+    },
+    {
+      "run_id": "zc6j6f6k",
+      "run_name": "PPO-alpha-projection-HPolytope",
+      "metric_value": 14.259364,
+      "hyperparameters": {
+        "batch_size": 128,
+        "ent_coef": 0.012853111315361716,
+        "eps_clip": 0.10086904064042897,
+        "lr": 0.0007268498440579943,
+        "width": 512,
+        "update_step_num_repetitions": 5,
+        "vf_coef": 0.40679197587525817
+      }
+    },
+    {
+      "run_id": "t0i9ra3h",
+      "run_name": "PPO-alpha-projection-HPolytope",
+      "metric_value": 12.311416,
+      "hyperparameters": {
+        "batch_size": 128,
+        "ent_coef": 0.02098722537170155,
+        "eps_clip": 0.10405041234448328,
+        "lr": 0.0005323501152923694,
+        "width": 512,
+        "update_step_num_repetitions": 4,
+        "vf_coef": 0.5434115864827335
+      }
+    },
+    {
+      "run_id": "pvziylhp",
+      "run_name": "PPO-alpha-projection-HPolytope",
+      "metric_value": 11.148539,
+      "hyperparameters": {
+        "batch_size": 256,
+        "ent_coef": 0.02031524391131509,
+        "eps_clip": 0.1232911233181948,
+        "lr": 0.0004449171929738009,
+        "width": 512,
+        "update_step_num_repetitions": 4,
+        "vf_coef": 0.3494723435374787
+      }
+    }
+  ]
+}

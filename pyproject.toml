@@ -1,0 +1,37 @@
+[project]
+name = "acorl"
+version = "0.1.0"
+description = "Action-constrained reinforcement learning library"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "setuptools<81.0.0",
+    "numpy>=2.0",
+    "gymnasium>=1.2.3",
+    "torch>=2.11.0",
+    "tianshou[eval]>=2.0.1",
+    "cvxpy>=1.8.2",
+    "pygame-ce>=2.5.7",
+]
+
+[project.optional-dependencies]
+benchmarks = [
+    "wandb>=0.18",
+    "pandas>=2.0",
+    "matplotlib>=3.10",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# Formatting
+[tool.ruff]
+line-length = 100
+indent-width = 4
+format.quote-style = "single"
+target-version = "py312"
